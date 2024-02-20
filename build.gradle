@@ -57,9 +57,6 @@ dependencies {
     //modCompileOnly("io.vram:canvas-fabric-mc119:1.0.+") { transitive = false } // TODO: 1.19.3
     modCompileOnly("maven.modrinth:indium:${project.indium_version}") { transitive = false }
 
-    // Baritone (https://github.com/MeteorDevelopment/baritone)
-    modCompileOnly "meteordevelopment:baritone:${project.baritone_version}-SNAPSHOT"
-
     // Libraries
     library "meteordevelopment:orbit:${project.orbit_version}"
     library "meteordevelopment:starscript:${project.starscript_version}"
